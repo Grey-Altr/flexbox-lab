@@ -82,6 +82,8 @@ nav button {
 #subnav {
   padding: 32px 72px 0;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 #subnav button {
@@ -101,11 +103,13 @@ nav button {
 #destinations {
     display: flex;
     align-items: center;
+    gap: 1em;
 }
 
 #actions {
     display: flex;
     align-items: center;
+    gap: 1em;
 }
 
 #hero {
@@ -117,8 +121,11 @@ nav button {
 
 #headers {
     display: flex;
+    flex-direction: column;
 }
 
 #trending {
-    
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
